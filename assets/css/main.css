@@ -59,10 +59,14 @@ body {
   font-weight: 800;
 }
 .WebContainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
 .bg-video {
   z-index: -1;
 }
