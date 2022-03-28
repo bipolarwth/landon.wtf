@@ -122,6 +122,50 @@ span::before {
     opacity: 0;
   }
 }
+@media all and (max-width: 500px) {
+    header {
+        height: 70px;
+        line-height: 70px;
+    }
+
+        header span {
+            font-size: 16px;
+        }
+
+    .side_article {
+        display: none;
+        visibility: hidden;
+    }
+
+    .main_articles {
+        width: 90%;
+    }
+
+    .siteDescription {
+        width: 95%;
+        height: auto;
+        display: block;
+    }
+
+    .desImage {
+        margin: auto;
+        width: 90%;
+        height: auto;
+    }
+
+        .desImage img {
+            width: 95%;
+            margin-left: 5px;
+        }
+
+    .des {
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        height: 300px;
+        background-color: #d9d9d9;
+    }
+}
 @keyframes hide {
   to {
     visibility: hidden;
