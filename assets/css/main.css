@@ -58,6 +58,11 @@ body {
   font-size: 4rem;
   font-weight: 800;
 }
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 .bg-video {
   z-index: -1;
 }
