@@ -61,7 +61,7 @@ div.social_container {
     animation: flicker 1s steps(2, start) infinite;
 }
 
-div#boxy {
+div.boxy {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.6);
